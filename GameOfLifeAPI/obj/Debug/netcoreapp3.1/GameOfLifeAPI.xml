@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameOfLifeAPI</name>
+    </assembly>
+    <members>
+        <member name="M:GameOfLifeAPI.Controllers.GameOfLifeController.Get">
+            <summary> 
+            Return the board saved in memory. 
+            </summary>        
+        </member>
+        <member name="M:GameOfLifeAPI.Controllers.GameOfLifeController.Post">
+            <summary> 
+            Returns the next board in the game and save it in memory. 
+            </summary>
+        </member>
+        <member name="M:GameOfLifeAPI.Controllers.GameOfLifeController.PostNewBoard(System.String)">
+             <summary> 
+             Saves a new board in memory that is written in the body. 
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST /api/GameOfLife/new
+                 {
+                    "rows": 3,
+                    "columns": 3,
+                    "board": [[{"status":true},{"status":true},{"status":true}],[{"status":true},{"status":true},{"status":true}],[{"status":true},{"status":true},{"status":true}]]
+                 }
+            
+             </remarks>
+             <response code="400">If the item is null</response> 
+        </member>
+    </members>
+</doc>
