@@ -26,6 +26,7 @@
         "dependencies": {
           "AspNetCore.HealthChecks.System": "3.1.2",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
+          "GameOfLife": "1.0.0",
           "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
           "Newtonsoft.Json": "12.0.3",
           "Swashbuckle": "5.6.0",
@@ -1377,6 +1378,14 @@
         },
         "compile": {
           "lib/net40/WebActivatorEx.dll": {}
+        }
+      },
+      "GameOfLife/1.0.0": {
+        "runtime": {
+          "GameOfLife.dll": {}
+        },
+        "compile": {
+          "GameOfLife.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3773,6 +3782,11 @@
       "sha512": "sha512-B3ZbOEaGCqa7BLjZZw6wqprOJJMvP39h7Lr5ADkJOCPKHppAaCre34kR63/gfgpM4htzTfgm/pEw7r7qqqMgIA==",
       "path": "webactivatorex/2.0.0",
       "hashPath": "webactivatorex.2.0.0.nupkg.sha512"
+    },
+    "GameOfLife/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

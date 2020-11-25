@@ -49,3 +49,6 @@ C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\bin\Debug\netcoreapp
 C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\obj\Debug\netcoreapp3.1\GameOfLifeAPI.csproj.CoreCompileInputs.cache
 C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\obj\Debug\netcoreapp3.1\GameOfLifeAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\obj\Debug\netcoreapp3.1\GameOfLifeAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\obj\Debug\netcoreapp3.1\GameOfLifeAPI.csprojAssemblyReference.cache
+C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\bin\Debug\netcoreapp3.1\GameOfLife.dll
+C:\Users\cquintana\source\repos\GameOfLifeAPI\GameOfLifeAPI\bin\Debug\netcoreapp3.1\GameOfLife.pdb
