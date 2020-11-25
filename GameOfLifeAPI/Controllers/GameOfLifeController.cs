@@ -19,12 +19,10 @@ namespace GameOfLifeAPI.Controllers
     {     
 
         private ISaveBoard _board;
-        private IMapper _mapper;
 
-        public GameOfLifeController(ISaveBoard board, IMapper mapper)
+        public GameOfLifeController(ISaveBoard board)
         {
             _board = board;
-            _mapper = mapper;
         }
 
 
@@ -35,9 +33,6 @@ namespace GameOfLifeAPI.Controllers
         public ActionResult<string> Get()
         {
             var json = JsonConvert.SerializeObject(_board.getBoard());
-
-            //var actualBoard = json.FromBoardToBoardDTO();
-
             return Ok(json);
         }
 
